@@ -1,16 +1,12 @@
-# bookly
+# Bookly
 
-A new Flutter project.
+## App Preview
 
-## Getting Started
+## App Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Home Screen](assets\app_preview\HomeScreen.png)
+![Preview Screen](assets\app_preview\PreviewScreen.png)
+![Splash Screen](assets\app_preview\SplashScreen.png)
+![Search Screen](assets\app_preview\SearchScreen.png)
+![Search Result Screen](assets\app_preview\SearchResultScreen.png)
+![Screen When Load](assets\app_preview\ScreenWhenLoad.png)

@@ -24,7 +24,9 @@ class Bookly extends StatelessWidget {
         BlocProvider(
           create: (context) => FeaturedBooksCubit(
             getIt.get<HomeRepoImpl>(),
-          )..fetchFeatureBooks(),
+          )..fetchFeaturedBooks(
+              subject: booksType[0],
+            ),
         ),
         BlocProvider(
           create: (context) => NewestBooksCubit(
@@ -39,7 +41,7 @@ class Bookly extends StatelessWidget {
           scaffoldBackgroundColor: kPrimaryColor,
           textTheme: GoogleFonts.montserratTextTheme(
             ThemeData.dark().textTheme,
-        ),
+          ),
         ),
       ),
     );

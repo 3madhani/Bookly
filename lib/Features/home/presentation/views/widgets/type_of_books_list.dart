@@ -53,7 +53,7 @@ class _TypeOfBooksListState extends State<TypeOfBooksList> {
 
     context
         .read<FeaturedBooksCubit>()
-        .fetchFeatureBooks(subject: selectedBookType);
+        .fetchFeaturedBooks(subject: selectedBookType);
 
   }
 
